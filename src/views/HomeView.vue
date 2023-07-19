@@ -1,18 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="p-4 bg-gray-100">
+    <h1 class="text-4xl font-bold text-blue-600">Welcome to My Vue App!</h1>
+    <p class="mt-4 text-gray-800">This is a paragraph with some Tailwind CSS styles.</p>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
-</script>
